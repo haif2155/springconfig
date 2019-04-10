@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: springconfig-test-dev
+---
+spring:
+  profiles: default
+  application:
+    name: springconfig-test-default
