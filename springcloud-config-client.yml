@@ -17,10 +17,8 @@ eureka:
       defaultZone: http://admin:enjoy@localhost:7301/eureka
       
 info:
-  app:
-    name: springcloud-config-client-devdev
-  company:
-    name: enjoy1
+  app.name: springcloud-config-client-devdev
+  company.name: enjoy1
 
 ---
 server:
@@ -37,8 +35,6 @@ eureka:
       defaultZone: http://admin:enjoy@localhost:7001/eureka
       
 info:
-  app: 
-    name: springcloud-config-client-devdev
-  company:
-    name: enjoy1
+  app.name: springcloud-config-client-devdev
+  company.name: enjoy1
 
